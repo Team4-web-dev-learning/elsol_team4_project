@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+body {
+  display:grid;
+  margin: 0;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+.pic {
+  grid-column-start:1;
+  grid-column-end:2;
+  grid-row-start:1;
+  grid-row-end:1;
+  background:green;
+  
+}
+img {
+ height: 100%;
+ width: 50%;
+ object-fit: cover;
+ box-shadow:0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+ padding-left:100px;
+}
+.header {
+  grid-column-start:2;
+  grid-column-end:7;
+  grid-row-start:1;
+  grid-row-end:1;
+  background:blue;
+  color:#651144;
+  text-align: center;
+  Font-size:100%;
+  line-height:2;
+}
+.invitation {
+  grid-column-start:2;
+  grid-column-end:7;
+  grid-row-start:2;
+  grid-row-end:2;
+  background:pink;
+  text-align: center;
+  line-height:2;
+  padding-top: 40px;}
+.content {
+  grid-column-start:3;
+  grid-column-end:6;
+  grid-row-start:4;
+  grid-row-end:4;
+  background:blue;
+  text-align: center;
+  font-size:18px;
+   
+}
+.line {
+  grid-column-start:4;
+  grid-column-end:5;
+  grid-row-start:3;
+  grid-row-end:3;
+  text-align: center;
+  padding-top: 130px;
+  background:green;
+  font-size:17px;
+  font-weight:bold;
+  height:30%;
+}
+hr {
+  border-top: 2px dashed black;
+}
+.contentInside {
+  font-weight:normal;
+  text-align: left;
+  padding-left:30%
+}
+.principle {
+ font-weight:bold; 
+ text-align: left;
+ padding-left:28%;
+  padding-top: 15px;
+}
+.principles {
+ text-align: left;
+  padding-left:28%; 
+}
+.attention {
+grid-column-start:1;
+  grid-column-end:4;
+  grid-row-start:5;
+  grid-row-end:5;
+  background:yellow;
+  font-size:17px;
+  text-align: center;
+  margin-left: 150px;
+   margin-right: 75px;
+  margin-top:75px;
+  border: 1px solid black;
+}
+h3 {
+  color:#FF3D00;
+}
+.details {
+  text-align: left;  
+}
+.start {
+  grid-column-start:4;
+  grid-column-end:7;
+  grid-row-start:5;
+  grid-row-end:5;
+  background:orange;
+  font-size:17px;
+  text-align: center;
+  margin-left: 75px;
+  margin-right: 150px;
+  margin-top:75px;
+  border: 1px solid black;
+}
+.info {
+  grid-column-start:1;
+  grid-column-end:7;
+  grid-row-start:6;
+  grid-row-end:6;
+  background:yellow;
+  font-size:17px;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top:75px;
+  border: 1px solid black;
+}
