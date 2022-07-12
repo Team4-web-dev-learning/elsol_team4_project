@@ -9,7 +9,7 @@ body {
 .pic {
  
  max-width:130px;
- background:red;
+ background:;
  float:left;
  padding-left:150px;
 }
@@ -21,7 +21,7 @@ body {
   grid-column-end:7;
   grid-row-start:1;
   grid-row-end:1;
-  background:blue;
+  background:;
   color:#651144;
   text-align: center;
   Font-size:100%;
@@ -34,7 +34,7 @@ body {
   grid-column-end:7;
   grid-row-start:2;
   grid-row-end:2;
-  background:pink;
+  background:;
   text-align: center;
   line-height:2;
   padding-top:30px;
@@ -47,7 +47,7 @@ body {
   grid-column-end:6;
   grid-row-start:4;
   grid-row-end:4;
-  background:blue;
+  background:;
   text-align: center;
   font-size:18px;
   max-height: 230px; 
@@ -59,7 +59,7 @@ body {
   grid-row-end:3;
   text-align: center;
   padding-top: 10px;
-  background:green;
+  background:;
   font-size:17px;
   font-weight:bold;
   padding-bottom:10px;
@@ -88,7 +88,7 @@ grid-column-start:1;
   grid-column-end:4;
   grid-row-start:5;
   grid-row-end:5;
-  background:yellow;
+  background:;
   font-size:17px;
   text-align: center;
   margin-left: 150px;
@@ -107,7 +107,7 @@ h3 {
   grid-column-end:7;
   grid-row-start:5;
   grid-row-end:5;
-  background:orange;
+  background:;
   font-size:17px;
   text-align: center;
   margin-left: 75px;
@@ -120,19 +120,21 @@ h3 {
   grid-column-end:7;
   grid-row-start:6;
   grid-row-end:6;
-  background:yellow;
+  background:;
   font-size:17px;
   text-align: center;
   margin-left: 150px;
   margin-right: 150px;
-  margin-top:50px;
+  margin-top:75px;
   border: 1px solid black;
   max-height: 100px;
+  margin-bottom:75px;
 }
 .infoDetails {
   display:grid;
   margin: 0;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1;
-  background:blue;
+  background:;
+  margin-bottom:75px;
 }
