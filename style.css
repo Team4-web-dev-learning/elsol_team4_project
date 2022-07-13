@@ -95,6 +95,8 @@ grid-column-start:1;
    margin-right: 75px;
   margin-top:50px;
   border: 1px solid black;
+  padding:20px;
+  border-radius: 30px;
 }
 h3 {
   color:#FF3D00;
@@ -114,6 +116,8 @@ h3 {
   margin-right: 150px;
   margin-top:50px;
   border: 1px solid black;
+   padding:20px;
+  border-radius: 30px;
 }
 .info {
   grid-column-start:1;
@@ -129,6 +133,7 @@ h3 {
   border: 1px solid black;
   max-height: 100px;
   margin-bottom:75px;
+  border-radius: 30px;
 }
 .infoDetails {
   display:grid;
@@ -137,4 +142,19 @@ h3 {
   grid-template-rows: 1;
   background:;
   margin-bottom:75px;
+}
+a:hover {
+  color:#FF3D00;
+}
+svg {
+  fill: #F57F17;
+  width: 40px;
+  margin-right: 10px;
+  padding-left:150px;
+}
+.instagram {
+  padding-left:120px;
+}
+.telegram {
+  padding-left:200px;
 }
