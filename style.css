@@ -8,15 +8,16 @@ body {
 
 .header {
   text-align: center;
-  line-height:1.5;
   display: grid;
   grid-template-columns: 1fr 5fr;
+  grid-template-rows: 150px;
+  
 }
 .pic {
   float:left;
   grid-column:1;
   grid-row:1;
-  max-height: 150px;
+  height: 100%;
 }
 
 .grid {
@@ -122,13 +123,12 @@ span, a {
 @media (max-device-width:500px) {
   body {
     grid-template-rows: 100px;
-    font-size:small;
   }
   h1 {
-    font-size: 1.4em;
+    font-size: 100%;
   }
   h2 {
-    font-size: 1.17em;
+    font-size: 90%;
   }
   .content {
     display: block;
