@@ -1,27 +1,26 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
 body {
   display:grid;
   margin: 0;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: none;
- 
+  font-family: Cambria,Georgia,serif; 
 }
 .pic {
- 
- max-width:130px;
- background:;
- float:left;
- padding-left:150px;
+  grid-column: 1;
+  grid-row:1;
+  float:left;
+  align-content:right;
+  height:100%;
+  max-height: 150px;
 }
 
 
 
 .header {
-  grid-column-start:1;
+  grid-column-start:2;
   grid-column-end:7;
   grid-row-start:1;
   grid-row-end:1;
-  background:;
   color:#651144;
   text-align: center;
   Font-size:100%;
