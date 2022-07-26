@@ -61,7 +61,7 @@ body {
   list-style-image: url("check-mark-10.svg");
   list-style-position:inside;
   text-align: left;
-  padding-left:30%;
+  padding-left:15%;
 }
 .attention {
   grid-column:1;
