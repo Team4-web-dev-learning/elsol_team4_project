@@ -61,7 +61,7 @@ body {
   list-style-image: url("check-mark-10.svg");
   list-style-position:inside;
   text-align: left;
-  padding-left:200px;
+  padding-left:30%;
 }
 .attention {
   grid-column:1;
@@ -111,7 +111,7 @@ h3 {
   grid-template-rows: 1;
   margin-bottom:75px;
   margin-top:35px;
-  padding-left:200px;
+  padding-left:15%;
 }
 a:hover {
   color:#FF3D00;
