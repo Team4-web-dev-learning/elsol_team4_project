@@ -154,4 +154,11 @@ span, a {
   .info {
     grid-row:7;
   }
+
+.infoDetails {
+  grid-template-columns: 1fr ;
+  grid-template-rows:repeat(3, 1fr);
+  grid-auto-flow:row;
+ } 
+
 }
