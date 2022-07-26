@@ -10,7 +10,7 @@ body {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 5fr;
-  padding-right:200px;
+  padding-right:15%;
   
 }
 .pic {
